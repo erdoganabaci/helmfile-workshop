@@ -96,4 +96,17 @@ chmod +x helmfile
 
 ./helmfile diff
 
+kubectl get svc -n workshop
+
+./helmfile apply
+
+kubectl port-forward svc/workshop-wordpress 1337:80 -n workshop
+
+
+Go to browser http://localhost:1337
+
+
+
+
+
 ```
