@@ -84,3 +84,16 @@ You could try to implement this with [git hooks](https://githooks.com/#:~:text=G
 ### Helm & Helmfile hero assignment: Implement Helm Secrets for managing secrets inside value files.
 
 https://github.com/zendesk/helm-secrets
+
+### Extra: commands
+```
+
+wget https://github.com/roboll/helmfile/releases/download/v0.131.0/helmfile_linux_amd64
+
+mv helmfile_linux_amd64 helmfile
+
+chmod +x helmfile
+
+./helmfile diff
+
+```
