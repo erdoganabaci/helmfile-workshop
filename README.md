@@ -105,6 +105,10 @@ kubectl port-forward svc/workshop-wordpress 1337:80 -n workshop
 
 Go to browser http://localhost:1337
 
+delete all yaml configuration files 
+
+./helmfile destroy
+
 
 
 
